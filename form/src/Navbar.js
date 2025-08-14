@@ -5,7 +5,6 @@ import "./Navbar.css";
 const UdyamNavbar = () => {
   return (
     <Navbar expand="lg" className="udyam-navbar fixed-top">
-      {/* Replicate the original's container-fluid and col-xl-10 structure */}
       <div className="navbar-inner">
         <div className="d-flex w-100 align-items-center">
           {/* Logo */}

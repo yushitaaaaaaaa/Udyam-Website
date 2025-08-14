@@ -1,7 +1,3 @@
-// scrape_udyam.js
-// Puppeteer script to open the Udyam registration page visibly,
-// extract form details, and save them to udyam_schema_raw.json
-
 const fs = require('fs');
 const puppeteer = require('puppeteer');
 
@@ -20,10 +16,8 @@ const puppeteer = require('puppeteer');
   console.log('Going to:', url);
   await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
 
-  // Wait a bit so you can see the page
   await new Promise(resolve => setTimeout(resolve, 3000));
 
-  // Wait for form to be ready
   try { 
     await page.waitForSelector('form', { timeout: 8000 }); 
   } catch (e) {

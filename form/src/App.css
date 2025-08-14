@@ -1,39 +1,39 @@
 body, html {
-  font-size: 13.5px; /* Original site uses slightly smaller base size */
-  line-height: 1.4;  /* Matches original tighter spacing */
-  color: #212529;    /* Ensure consistent text color */
+  font-size: 13.5px; 
+  line-height: 1.4;  
+  color: #212529;    
 }
 
 input.form-control,
 select.form-select,
 textarea.form-control {
-  height: 36px !important;      /* Slightly shorter than your current 40px */
-  padding: 4px 8px !important;  /* Less vertical padding for compact look */
-  font-size: 13.5px !important; /* Match new base font size */
+  height: 36px !important;      
+  padding: 4px 8px !important; 
+  font-size: 13.5px !important; 
 }
 
 .container {
-  max-width: 80%; /* Optional: to make it more compact */
+  max-width: 80%; 
 }
 
 .card-header {
-  padding: 8px 15px !important;   /* Reduce from ~12px+ */
-  font-size: 14px !important;     /* Slightly smaller text */
+  padding: 8px 15px !important;   
+  font-size: 14px !important;    
 }
 
 .card-body {
-  padding: 15px !important;       /* Reduce from your current 25px */
+  padding: 15px !important;    
 }
 
 .notice-container {
   overflow: hidden;
   white-space: nowrap;
-  background-color: transparent; /* keep background clear */
+  background-color: transparent; 
 }
 
 .notice-container a {
   display: inline-block;
-  font-weight: bold; /* make it bold */
+  font-weight: bold; 
   color: #017BFF;
   font-size: 12px;
   text-decoration: none;

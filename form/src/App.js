@@ -339,7 +339,7 @@ function App() {
             {showPanSection && (
               <div 
                 style={{
-                  color: '#057a20',  // green text
+                  color: '#057a20', 
                   marginTop: '20px',
                   fontWeight: 'bold'
                 }}
