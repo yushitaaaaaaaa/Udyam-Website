@@ -1,0 +1,163 @@
+{
+  "inputs": [
+    {
+      "field": "__ E V E N T T A R G E T",
+      "name": "__EVENTTARGET",
+      "type": "hidden",
+      "placeholder": ""
+    },
+    {
+      "field": "__ E V E N T A R G U M E N T",
+      "name": "__EVENTARGUMENT",
+      "type": "hidden",
+      "placeholder": ""
+    },
+    {
+      "field": "__ V I E W S T A T E",
+      "name": "__VIEWSTATE",
+      "type": "hidden",
+      "placeholder": ""
+    },
+    {
+      "field": "__ V I E W S T A T E G E N E R A T O R",
+      "name": "__VIEWSTATEGENERATOR",
+      "type": "hidden",
+      "placeholder": ""
+    },
+    {
+      "field": "__ V I E W S T A T E E N C R Y P T E D",
+      "name": "__VIEWSTATEENCRYPTED",
+      "type": "hidden",
+      "placeholder": ""
+    },
+    {
+      "field": "__ E V E N T V A L I D A T I O N",
+      "name": "__EVENTVALIDATION",
+      "type": "hidden",
+      "placeholder": ""
+    },
+    {
+      "field": "ctl00_ Content Place Holder1_txtadharno",
+      "name": "ctl00$ContentPlaceHolder1$txtadharno",
+      "type": "text",
+      "placeholder": "Your Aadhaar No"
+    },
+    {
+      "field": "ctl00_ Content Place Holder1_txtownername",
+      "name": "ctl00$ContentPlaceHolder1$txtownername",
+      "type": "text",
+      "placeholder": "Name as per Aadhaar"
+    },
+    {
+      "field": "ctl00_ Content Place Holder1_chk Decaration A",
+      "name": "ctl00$ContentPlaceHolder1$chkDecarationA",
+      "type": "checkbox",
+      "placeholder": ""
+    },
+    {
+      "field": "ctl00_ Content Place Holder1_btn Validate Aadhaar",
+      "name": "ctl00$ContentPlaceHolder1$btnValidateAadhaar",
+      "type": "submit",
+      "placeholder": ""
+    },
+    {
+      "field": "checkbox",
+      "name": null,
+      "type": "checkbox",
+      "placeholder": ""
+    }
+  ],
+  "selects": [],
+  "buttons": [
+    {
+      "tag": "BUTTON",
+      "text": null,
+      "id": null,
+      "name": null
+    },
+    {
+      "tag": "INPUT",
+      "text": "Validate & Generate OTP",
+      "id": "ctl00_ContentPlaceHolder1_btnValidateAadhaar",
+      "name": "ctl00$ContentPlaceHolder1$btnValidateAadhaar"
+    },
+    {
+      "tag": "BUTTON",
+      "text": null,
+      "id": null,
+      "name": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Text To Speech",
+      "id": "speak",
+      "name": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Bigger Text",
+      "id": "btn-s9",
+      "name": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Text Spacing",
+      "id": "btn-s13",
+      "name": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Line Height",
+      "id": "btn-s12",
+      "name": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Highlight Links",
+      "id": "btn-s10",
+      "name": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Dyslexia Friendly",
+      "id": "btn-df",
+      "name": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Hide Images",
+      "id": "btn-s11",
+      "name": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Cursor",
+      "id": "btn-cursor",
+      "name": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": " \nLight-Dark",
+      "id": "dark-btn",
+      "name": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Invert Colors",
+      "id": "btn-invert",
+      "name": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Reset All Settings",
+      "id": "reset-all",
+      "name": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Accessibility Options",
+      "id": "uw-widget-custom-trigger",
+      "name": null
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "name": "ctl00$ContentPlaceHolder1$txtadharno",
+    "label": "Aadhaar Number",
+    "type": "text",
+    "placeholder": "Your Aadhaar No",
+    "validation": {
+      "pattern": "^[0-9]{12}$",
+      "message": "Aadhaar must be 12 digits"
+    }
+  },
+  {
+    "name": "ctl00$ContentPlaceHolder1$txtownername",
+    "label": "Name as per Aadhaar",
+    "type": "text",
+    "placeholder": "Name as per Aadhaar",
+    "validation": {
+      "required": true
+    }
+  },
+  {
+    "name": "ctl00$ContentPlaceHolder1$chkDecarationA",
+    "label": "Declaration",
+    "type": "checkbox",
+    "value": true
+  },
+  {
+    "name": "ctl00$ContentPlaceHolder1$txtOtp1",
+    "label": "OTP",
+    "type": "text",
+    "placeholder": "OTP code",
+    "validation": {
+      "maxlength": 6,
+      "pattern": "^[0-9]{6}$",
+      "message": "OTP must be 6 digits"
+    }
+  },
+  {
+    "name": "ctl00$ContentPlaceHolder1$ddlOrganisationType",
+    "label": "Type of Organisation",
+    "type": "select",
+    "options": [
+      { "value": "", "text": "Select Type" },
+      { "value": "Proprietorship", "text": "Proprietorship" },
+      { "value": "Partnership", "text": "Partnership" },
+      { "value": "Private Limited", "text": "Private Limited" }
+    ]
+  },
+  {
+    "name": "ctl00$ContentPlaceHolder1$txtPan",
+    "label": "PAN",
+    "type": "text",
+    "placeholder": "Enter PAN Number",
+    "validation": {
+      "pattern": "^[A-Z]{5}[0-9]{4}[A-Z]$",
+      "message": "PAN must be in format AAAAA9999A"
+    }
+  },
+  {
+    "name": "ctl00$ContentPlaceHolder1$txtPanName",
+    "label": "Name as per PAN",
+    "type": "text",
+    "placeholder": "Name as per PAN"
+  },
+  {
+    "name": "ctl00$ContentPlaceHolder1$txtDob",
+    "label": "DOB or DOI",
+    "type": "date",
+    "placeholder": "DD/MM/YYYY"
+  },
+  {
+    "name": "ctl00$ContentPlaceHolder1$chkConsent",
+    "label": "Consent",
+    "type": "checkbox",
+    "value": true
+  }
+]

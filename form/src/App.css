@@ -1,0 +1,109 @@
+body, html {
+  font-size: 13.5px; /* Original site uses slightly smaller base size */
+  line-height: 1.4;  /* Matches original tighter spacing */
+  color: #212529;    /* Ensure consistent text color */
+}
+
+input.form-control,
+select.form-select,
+textarea.form-control {
+  height: 36px !important;      /* Slightly shorter than your current 40px */
+  padding: 4px 8px !important;  /* Less vertical padding for compact look */
+  font-size: 13.5px !important; /* Match new base font size */
+}
+
+.container {
+  max-width: 80%; /* Optional: to make it more compact */
+}
+
+.card-header {
+  padding: 8px 15px !important;   /* Reduce from ~12px+ */
+  font-size: 14px !important;     /* Slightly smaller text */
+}
+
+.card-body {
+  padding: 15px !important;       /* Reduce from your current 25px */
+}
+
+.notice-container {
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: transparent; /* keep background clear */
+}
+
+.notice-container a {
+  display: inline-block;
+  font-weight: bold; /* make it bold */
+  color: #017BFF;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 8px 0;
+  animation: scroll-left 12s linear infinite;
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.back-to-top {
+  position: fixed;
+  display: none;
+  right: 15px;
+  bottom: 30px;
+  z-index: 99999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.back-to-top i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  background: #07174e;
+  color: #fff;
+  transition: all 0.4s;
+}
+
+.back-to-top i:hover {
+  background: #7b27d8;
+  color: #fff;
+}
+
+.uw-widget-custom-trigger {
+  position: fixed;
+  right: 15px;
+  bottom: 2px;
+  transform: translateY(-50%);
+  z-index: 99998;
+  background: #503AC8;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.uw-widget-custom-trigger .icon {
+  font-size: 24px;
+  color: #fff;
+}
