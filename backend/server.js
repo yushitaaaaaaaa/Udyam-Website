@@ -13,7 +13,7 @@ app.post('/api/submit', async (req, res) => {
   try {
     const { aadhaar_no, entrepreneur_name, otp, org_type, pan_number, pan_holder_name, dob } = req.body;
 
-    // ✅ Basic validations
+    // Basic validations
     if (!aadhaar_no || !/^\d{12}$/.test(aadhaar_no)) {
       return res.status(400).json({ error: 'Invalid Aadhaar number. Must be 12 digits.' });
     }
@@ -24,7 +24,7 @@ app.post('/api/submit', async (req, res) => {
       return res.status(400).json({ error: 'Invalid PAN format.' });
     }
 
-    // ✅ Insert into DB
+    // Insert into DB
     const formData = await prisma.udyamFormData.create({
       data: {
         aadhaar_no,
