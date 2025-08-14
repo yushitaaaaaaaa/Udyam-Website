@@ -1,0 +1,111 @@
+.footer {
+  background: linear-gradient(90deg, #0d0d3b, #1a1a5e);
+  color: #fff;
+  font-size: 12px;
+}
+
+.footer-top {
+  padding-top: 60px; 
+  padding-bottom: 10px; 
+}
+
+.footer-titlee {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.footer-title {
+  font-weight: 700;
+  font-size: 12px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links {
+  font-size: 10px;
+  color: #dfd4d4;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+  font-size: 10px;
+  color: #eeecec;
+}
+
+.footer-video {
+  font-size: 12px;
+}
+
+.footer-video video {
+  border-radius: 5px;
+}
+
+.footer-bottom {
+  /* This is the new container for the bottom row. Add padding here. */
+  padding: 20px 0;
+}
+
+.footer-bottom-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-text {
+  flex: 1;
+  text-align: left;
+  font-size: 10px;
+}
+
+.footer-text p {
+  margin: 0;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.social-links a {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+
+.social-links a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-divider {
+  border: none;
+  border-top: 2px solid #613AF5;
+  margin-bottom: 20px;
+}
+

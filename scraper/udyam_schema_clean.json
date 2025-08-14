@@ -1,0 +1,91 @@
+[
+  {
+    "name": "ctl00$ContentPlaceHolder1$txtadharno",
+    "type": "text",
+    "placeholder": "Aadhaar Number",
+    "validation": { "maxlength": 12 },
+    "value": "123456789012"
+  },
+  {
+    "name": "ctl00$ContentPlaceHolder1$txtownername",
+    "type": "text",
+    "placeholder": "Name as per Aadhaar",
+    "value": "Test"
+  },
+  {
+    "name": "ctl00$ContentPlaceHolder1$chkDecarationA",
+    "type": "checkbox",
+    "value": true
+  },
+  {
+    "name": "ctl00$ContentPlaceHolder1$txtOtp1",
+    "label": "OTP",
+    "type": "text",
+    "validation": { "maxlength": 6 },
+    "placeholder": "OTP code",
+    "autocomplete": "off",
+    "value": ""
+  },
+  {
+    "name": "ctl00$ContentPlaceHolder1$ddlOrganisationType",
+    "type": "select",
+    "placeholder": "Type of Organisation",
+    "options": [],
+    "value": ""
+  },
+  {
+    "name": "ctl00$ContentPlaceHolder1$txtPan",
+    "type": "text",
+    "placeholder": "ENTER PAN NUMBER",
+    "validation": { "maxlength": 10 },
+    "value": ""
+  },
+  {
+    "name": "ctl00$ContentPlaceHolder1$txtPanName",
+    "type": "text",
+    "placeholder": "Name as per PAN",
+    "value": ""
+  },
+  {
+    "name": "ctl00$ContentPlaceHolder1$txtDob",
+    "type": "text",
+    "placeholder": "DD/MM/YYYY",
+    "value": ""
+  },
+  {
+    "name": "ctl00$ContentPlaceHolder1$txtOrganisationName",
+    "type": "text",
+    "placeholder": "Organisation Name",
+    "value": ""
+  },
+  {
+    "name": "ctl00$ContentPlaceHolder1$txtTradeName",
+    "type": "text",
+    "placeholder": "Trade Name",
+    "value": ""
+  },
+  {
+    "name": "ctl00$ContentPlaceHolder1$txtEmail",
+    "type": "email",
+    "placeholder": "Email",
+    "value": ""
+  },
+  {
+    "name": "ctl00$ContentPlaceHolder1$txtMobile",
+    "type": "tel",
+    "placeholder": "Mobile Number",
+    "value": ""
+  },
+  {
+    "name": "ctl00$ContentPlaceHolder1$ddlGender",
+    "type": "select",
+    "placeholder": "Gender",
+    "options": [],
+    "value": ""
+  },
+  {
+    "name": "ctl00$ContentPlaceHolder1$chkConsent",
+    "type": "checkbox",
+    "value": true
+  }
+]
