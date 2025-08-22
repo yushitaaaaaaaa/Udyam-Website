@@ -34,10 +34,6 @@ The goal was to:
 - Database managed via **Prisma ORM** with a schema reflecting the original form.
 - Proper error handling and status codes.
 
-### 4. **Testing** (Jest)
-- Unit tests for PAN and Aadhaar validation functions.
-- Example: Ensure invalid Aadhaar numbers never reach OTP stage.
-
 ---
 
 ## 🛠️ Tech Stack
